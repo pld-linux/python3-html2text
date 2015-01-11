@@ -6,12 +6,12 @@
 %define		module	html2text
 Summary:	A HTML to markdown-structured text converter
 Name:		python-%{module}
-Version:	2014.12.5
+Version:	2014.12.29
 Release:	1
 License:	GPL v3
 Group:		Libraries/Python
 Source0:	https://pypi.python.org/packages/source/h/html2text/%{module}-%{version}.tar.gz
-# Source0-md5:	165c314c5957cc8cf847c9a8cac3e4d2
+# Source0-md5:	c5bd796bdf7d1bfa43f55f1e2b5e4826
 URL:		https://github.com/Alir3z4/html2text/
 %if %{with python2}
 BuildRequires:	python-modules
