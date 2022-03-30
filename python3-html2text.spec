@@ -2,7 +2,7 @@
 Summary:	A HTML to markdown-structured text converter
 Name:		python3-%{module}
 Version:	2020.1.16
-Release:	3
+Release:	4
 License:	GPL v3
 Group:		Libraries/Python
 Source0:	https://pypi.python.org/packages/source/h/html2text/%{module}-%{version}.tar.gz
