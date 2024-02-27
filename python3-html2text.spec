@@ -1,18 +1,19 @@
 %define		module	html2text
 Summary:	A HTML to markdown-structured text converter
 Name:		python3-%{module}
-Version:	2020.1.16
-Release:	4
+Version:	2024.2.25
+Release:	1
 License:	GPL v3
 Group:		Libraries/Python
 Source0:	https://pypi.python.org/packages/source/h/html2text/%{module}-%{version}.tar.gz
-# Source0-md5:	c77b580c94d1a9e0145f23cc4472993d
+# Source0-md5:	f0bc29c6fde35cd5a7bb04b29ae2c8c8
 URL:		https://github.com/Alir3z4/html2text/
-BuildRequires:	python3 >= 1:3.5
-BuildRequires:	python3-modules
+BuildRequires:	python3 >= 1:3.6
+BuildRequires:	python3-modules >= 1:3.6
 BuildRequires:	python3-setuptools
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
+Requires:	python3-modules >= 1:3.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
