@@ -9,7 +9,6 @@ Source0:	https://pypi.python.org/packages/source/h/html2text/%{module}-%{version
 # Source0-md5:	c77b580c94d1a9e0145f23cc4472993d
 URL:		https://github.com/Alir3z4/html2text/
 BuildRequires:	python3 >= 1:3.5
-BuildRequires:	python3-Cython
 BuildRequires:	python3-modules
 BuildRequires:	python3-setuptools
 BuildRequires:	rpm-pythonprov
